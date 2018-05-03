@@ -1,0 +1,28 @@
+<header class="site-header fixed top-0 left-0 right-0 bg-white shadow-1" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    {%- if page_paths -%}
+
+    <nav class="db dt-l w-100 border-box pa0 ph5-l sans-serif">
+      <a  href="{{ "/" | relative_url }}" class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+        <img class="h3" src="/assets/logo.png">
+      </a>
+
+      <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            <a class="link dim dark-gray f5 dib mr3 mr4-l pa2
+              {% if my_page.url == page.url %}bg-light-gray{% endif %}
+            " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+    </nav>
+    {%- endif -%}
+  </div>
+</header>

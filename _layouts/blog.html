@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+      {%- for post in site.posts -%}
+      <div class="pa3 br2 ba b--light-gray bw2 mb3">
+
+        <div class="flex">
+
+          <div class="w4">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="f7 black pa1">{{ post.date | date: date_format }}</span>
+          </div>
+
+          <div class="flex1">
+            <h3 class='b0 mt0'>
+              {{ post.title | escape }}
+            </h3>
+
+            <div class="lh-copy">
+              {{post.content}}
+            </div>
+
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+      {%- endfor -%}
+
+    <p class="rss-subscribe">Obtener noticias via <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+  {%- endif -%}
+
+</div>
