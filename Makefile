@@ -13,12 +13,17 @@ comandos:
 	@echo ""
 	@echo "  ${Y}Generales de la aplicación${N}"
 	@echo ""
-	@echo "    ${G}ejecutar${N}                     Instala dependencias."
+	@echo "    ${G}iniciar${N}                 Instala las dependencias."
+	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo ""
 	@echo ""
 
+iniciar:
+	$(call log, "Instalando dependencias")
+	bundler install
+	
 ejecutar:
-	$(call log, "Iniciando ember s")
+	$(call log, "Iniciando el servidor")
 	jekyll s -l
 
 
