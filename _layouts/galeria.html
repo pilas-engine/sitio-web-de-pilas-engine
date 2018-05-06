@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="tc">
+
+{% for image in site.static_files %}
+  {% if image.path contains 'originales' %}
+    <a href='{{ site.baseurl }}{{ image.path }}' target="_blank"><img class='w-20 dib' src='{{ site.baseurl }}{{ image.path  | replace: "originales", "thumbs" | replace: "png", "jpg"}}' alt="image"/></a>
+  {% endif %}
+{% endfor %}
+
+</div>

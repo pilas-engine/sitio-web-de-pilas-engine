@@ -26,3 +26,8 @@ ejecutar:
 	$(call log, "Iniciando el servidor")
 	jekyll s -l
 
+
+generar_miniaturas:
+	$(call log, "Iniciando el servidor")
+	cd assets/galeria/originales; mogrify -resize 300x200 -background white -gravity center -format jpg -quality 75 -path ../thumbs *.png
+	cd assets/galeria/originales; mogrify -resize 300x200 -background white -gravity center -format jpg -quality 75 -path ../thumbs *.jpg
