@@ -15,6 +15,7 @@ comandos:
 	@echo ""
 	@echo "    ${G}iniciar${N}                 Instala las dependencias."
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
+	@echo "    ${G}deploy${N}                  Genera la versión navegable para git-pages."
 	@echo ""
 	@echo ""
 
@@ -26,6 +27,15 @@ ejecutar:
 	$(call log, "Iniciando el servidor")
 	jekyll s -l
 
+deploy:
+	$(call log, "Compilando")
+	jekyll build
+	git checkout gh-pages
+	git pull
+	mv _site/* ./
+	git commit -am "deploy"
+	git push
+	git checkout master
 
 .PHONY: tmp docs binarios
 
