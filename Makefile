@@ -32,7 +32,7 @@ deploy:
 	jekyll build
 	git checkout gh-pages
 	git pull
-	mv -rf _site/* ./
+	cp -rf _site/* ./
 	git commit -am "deploy"
 	git push
 	git checkout master
