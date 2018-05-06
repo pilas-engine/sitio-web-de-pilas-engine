@@ -30,12 +30,7 @@ ejecutar:
 deploy:
 	$(call log, "Compilando")
 	jekyll build
-	git checkout gh-pages
-	git pull
-	cp -rf _site/* ./
-	git commit -am "deploy"
-	git push
-	git checkout master
+	surge _site/ -d sitio-web-de-pilas-engine.surge.sh
 
 .PHONY: tmp docs binarios
 
