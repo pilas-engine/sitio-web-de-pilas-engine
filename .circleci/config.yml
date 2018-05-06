@@ -9,8 +9,14 @@ jobs:
           name: Instalando dependencias
           command: bundle install
       - run:
-          name: Ejecutando test
+          name: Generando sitio html
           command: bundle exec jekyll build --verbose
+      - run:
+          name: Instalando surge
+          command: npm install surge -g
+      - run:
+          name: Subiendo a surge
+          command: surge _site/ -d sitio-web-de-pilas-engine.surge.sh
 workflows:
   version: 2
   compilar:
