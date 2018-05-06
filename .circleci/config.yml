@@ -2,15 +2,15 @@ version: 2
 jobs:
   compilar:
     docker:
-      - image: circleci/ruby:2.4-node
+      - image: starefossen/ruby-node:2-8
     steps:
       - checkout
       - run:
-          name: Instalando dependencias de pilas
-          command: make iniciar
+          name: Instalando dependencias
+          command: bundle install
       - run:
           name: Ejecutando test
-          command: make deploy
+          command: bundle exec jekyll build --verbose
 workflows:
   version: 2
   compilar:
