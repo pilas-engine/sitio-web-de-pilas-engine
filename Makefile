@@ -15,7 +15,6 @@ comandos:
 	@echo ""
 	@echo "    ${G}iniciar${N}                 Instala las dependencias."
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
-	@echo "    ${G}deploy${N}                  Genera la versión navegable para git-pages."
 	@echo ""
 	@echo ""
 
@@ -26,11 +25,4 @@ iniciar:
 ejecutar:
 	$(call log, "Iniciando el servidor")
 	jekyll s -l
-
-deploy:
-	$(call log, "Compilando")
-	jekyll build
-	surge _site/ -d sitio-web-de-pilas-engine.surge.sh
-
-.PHONY: tmp docs binarios
 
