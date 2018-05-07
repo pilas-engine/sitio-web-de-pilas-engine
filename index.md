@@ -10,8 +10,8 @@ order: 1
   <div class='f4 pt4'>Pilas Engine te permite crear tus propios videojuegos de manera didáctica y divertida</div>
 
   <div class='mt4'>
-    <a class="dib ma2 pa3 br2 bn bg-green white f5 pointer dim link" target="blank" href="https://pilas-engine.surge.sh">Abrir la versión online</a>
-    <a class="dib ma2 pa3 br2 bn bg-orange white f5 pointer dim link" href="descargas">Descargar versión offline</a>
+    <a class="btn btn-blue white" target="blank" href="https://pilas-engine.surge.sh">Abrir la versión online</a>
+    <a class="btn btn-green white" href="descargas">Descargar versión offline</a>
   </div>
 </div>
 
