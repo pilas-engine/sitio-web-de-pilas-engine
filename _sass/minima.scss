@@ -9,3 +9,34 @@
 .bg-bloques {
   background-image: url("background.png");
 }
+
+.source-sans-pro {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  overflow: hidden;
+}
+
+.contenedor-scroll {
+  position: absolute;
+  overflow: auto;
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}

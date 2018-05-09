@@ -7,11 +7,15 @@
 
     {%- include header.html -%}
 
-    <main class="mw8 mt5 center pt5 pt4-l ph2 sans-serif pb4 lh-copy" aria-label="Content">
-      {{ content }}
-    </main>
+    <div class="contenedor-scroll">
 
-    {%- include footer.html -%}
+      <main class="mw8 center pt5 pt4-l ph2 sans-serif pb4 lh-copy" aria-label="Content">
+        {{ content }}
+
+        {%- include footer.html -%}
+      </main>
+
+    </div>
 
   </body>
 

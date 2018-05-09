@@ -6,12 +6,12 @@ order: 1
 ---
 
 <div class="bg-light-gray pa5 br3 tc lh-copy bg-bloques bw1 ba b--light-gray mb5">
-  <div class='f1'>¡Crea tus propios videojuegos!</div>
-  <div class='f4 pt4'>Pilas Engine te permite crear tus propios videojuegos de manera didáctica y divertida</div>
+  <div class='f1 source-sans-pro dark-gray'>¡Crea tus propios videojuegos!</div>
+  <div class='f4 source-sans-pro pt4 dark-gray'>Pilas Engine te permite crear tus propios videojuegos de manera didáctica y divertida</div>
 
   <div class='mt4'>
-    <a class="btn btn-blue white" target="blank" href="https://pilas-engine.surge.sh">Abrir la versión online</a>
-    <a class="btn btn-green white" href="descargas">Descargar versión offline</a>
+    <a class="btn btn-blue white source-sans-pro" target="blank" href="https://pilas-engine.surge.sh"><img src="/assets/iconos/online.png" class="fl mr2"/> Abrir la versión online</a>
+    <a class="btn btn-green white source-sans-pro" href="descargas"><img src="/assets/iconos/offline.png" class="fl mr2"/> Descargar versión offline</a>
   </div>
 </div>
 
