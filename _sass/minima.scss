@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "tachyons.min";
 @import "buttons";
+@import "lightbox";
 
 .flex1 {
   flex: 1;
@@ -45,4 +46,8 @@ body {
   left: 0px;
   right: 0px;
   bottom: 0px;
+}
+
+.lightbox {
+  padding-top: 3em;
 }
