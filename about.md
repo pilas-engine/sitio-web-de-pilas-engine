@@ -16,3 +16,42 @@ Ideamos esta herramienta para que los jóvenes puedan descubrir y aprender a pro
 ## Nuestro equipo de desarrolladores
 
 En el desarrollo de pilas participamos varias personas, somos una comunidad abierta y colaborativa de programadores, docentes y estudiates de distintas partes del mundo:
+
+<div class="w-100">
+<div class="dib tc ma3 v-top">
+  <img class="br-100" src="/assets/equipo/hugoruscitti.jpg">
+  <div class="f4">Hugo Ruscitti</div>
+  <div>Lider del proyecto</div>
+  <img src="/assets/banderas/arg.png">
+</div>
+
+<div class="dib tc ma3 v-top">
+  <img class="br-100" src="/assets/equipo/waltervelazquez.jpg">
+  <div class="f4">Wally</div>
+  <div>Ilustrador</div>
+  <img src="/assets/banderas/arg.png">
+</div>
+
+<div class="dib tc ma3 v-top">
+  <img class="br-100" src="/assets/equipo/enriqueporta.jpg">
+  <div class="f4">Enrique Porta</div>
+  <div>Desarrollador</div>
+  <img src="/assets/banderas/esp.png">
+</div>
+
+<div class="dib tc ma3 v-top">
+  <img class="br-100" src="/assets/equipo/fernandosalamero.jpg">
+  <div class="f4">Fernando Salamero</div>
+  <div>Desarrollador</div>
+  <img src="/assets/banderas/esp.png">
+</div>
+
+<div class="dib tc ma3 v-top">
+  <img class="br-100" src="/assets/equipo/irvingrodriguez.jpg">
+  <div class="f4">Irving Rodriguez</div>
+  <div>Desarrollador</div>
+  <img src="/assets/banderas/mex.png">
+</div>
+</div>
+
+<div class="red">Pendiente ... </div>
