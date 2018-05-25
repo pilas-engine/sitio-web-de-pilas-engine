@@ -1,5 +1,7 @@
 # Sitio web de Pilas Engine
 
+[![CircleCI](https://circleci.com/gh/pilas-engine/sitio-web-de-pilas-engine.svg?style=svg)](https://circleci.com/gh/pilas-engine/sitio-web-de-pilas-engine)
+
 - http://sitio-web-de-pilas-engine.surge.sh/
 
 
