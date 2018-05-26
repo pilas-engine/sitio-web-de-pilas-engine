@@ -6,12 +6,36 @@
 
     {%- if page_paths -%}
 
+
+    <div id="sm-nav-container" class="absolute dn-ns w-100 vh-100 bg-white overflow-auto">
+      <nav id="sm-nav-bg" class="w-100 h-100">
+        <div id="closeNav" class="toggle tr db" ><img class="pa3 w1" src="/assets/close.png"></div>
+
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            <a class="link source-sans-pro dim dark-gray f5 db tc mr1-l pa3
+              {% if my_page.url == page.url %}bg-light-gray{% endif %}
+            " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </nav>
+    </div>
+
     <nav class="db dt-l w-100 border-box pa0 ph5-l sans-serif">
-      <a  href="{{ "/" | relative_url }}" class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+
+      <div id="openNav" class="toggle dib dn-ns pointer v-top pt3 mt1 ph3">
+        <img src="/assets/menu.png"> <span class="dib v-top pt1 pl1">Menu</span>
+      </div>
+
+      <a href="{{ "/" | relative_url }}" class="db-ns dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
         <img class="h3" src="/assets/logo.png">
       </a>
 
-      <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+
+
+
+      <div class="dtc-l v-mid w-100 w-75-l tc tr-l dn db-ns">
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
@@ -21,6 +45,24 @@
           {%- endif -%}
         {%- endfor -%}
       </div>
+
+<script>
+var openNavButton = document.getElementById("openNav");
+var closeNavButton = document.getElementById("closeNav");
+var smNav = document.getElementById("sm-nav-container");
+
+smNav.style.display = "none";
+
+openNavButton.addEventListener("click", function() {
+  smNav.style.display = "block";
+  smNav.classList.toggle("onscreen");
+});
+
+closeNavButton.addEventListener("click", function() {
+  smNav.style.display = "none";
+  smNav.classList.toggle("onscreen");
+});
+</script>
 
     </nav>
     {%- endif -%}
