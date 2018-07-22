@@ -7,7 +7,6 @@ order: 3
 
 # Descargas
 
-
 {% assign version = site.github.latest_release.name %}
 {% assign baseurl = "https://github.com/pilas-engine/pilas-engine/releases/download/" %}
 
@@ -23,7 +22,6 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-linux-64_bits.zip"><img src="/assets/iconos/raspberry.png" class="fl mr2"/> Raspberry</a>
 </div>
 
-
 <div class="tc mt2">
   <div class="mt4">Otras opciones de descargas:</div>
 
@@ -36,7 +34,7 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
 
 ## Versión clásica
 
-La versión clásica de Pilas Engine, también conocida como pilas-python se puede descargar desde aquí:
+La versión clásica de Pilas Engine, también conocida como pilas-python se puede descargar desde aquí, <a href="https://github.com/hugoruscitti/pilas/">o bien desde el nuestro repositorio de pilas-engine 1</a>
 
 <div class="tc">
   <a class="btn btn-blue white source-sans-pro" href="descargas"><img src="/assets/iconos/windows.png" class="fl mr2"/> Descargar la versión clásica</a>
