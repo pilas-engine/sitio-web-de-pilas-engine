@@ -15,6 +15,8 @@ comandos:
 	@echo ""
 	@echo "    ${G}iniciar${N}                 Instala las dependencias."
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
+	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
+	@echo "    ${G}generar_miniaturas${N}      Vuelve a generar las miniaturas de la galería."
 	@echo ""
 	@echo ""
 
@@ -26,6 +28,20 @@ ejecutar:
 	$(call log, "Iniciando el servidor")
 	jekyll s -l
 
+compilar:
+	$(call log, "Compilando")
+	jekyll build
+
+deploy_a_produccion:
+	rm -rf _site
+	rm -rf dist
+	@echo "Clonando repositorio para realizar el deploy."
+	git clone dokku@hugoruscitti.com.ar:sitio-web-de-pilas-engine dist
+	@echo "Moviendo archivos..."
+	make compilar
+	@cp -r _site/* dist/
+	@echo "Realizando deploy..."
+	@cd dist; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git push -f
 
 generar_miniaturas:
 	$(call log, "Iniciando el servidor")
