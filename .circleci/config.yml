@@ -17,6 +17,7 @@ jobs:
       - run:
           name: Subiendo a surge
           command: surge _site/ -d sitio-web-de-pilas-engine.surge.sh
+      - run: echo -e "Host hugoruscitti.com.ar\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
       - run:
           name: Subiendo a dokku
           command: make deploy_a_produccion
