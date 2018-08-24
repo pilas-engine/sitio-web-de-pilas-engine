@@ -7,7 +7,7 @@ order: 3
 
 # Descargas
 
-{% assign version = site.github.latest_release.name %}
+{% assign version = site.github.latest_release.tag_name %}
 {% assign baseurl = "https://github.com/pilas-engine/pilas-engine/releases/download/" %}
 
 La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada en la fecha {{site.github.latest_release.published_at  | date: '%d/%m/%Y'}})
