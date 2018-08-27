@@ -17,6 +17,7 @@ comandos:
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
 	@echo "    ${G}generar_miniaturas${N}      Vuelve a generar las miniaturas de la galería."
+	@echo "    ${G}forzar_deploy${N}           Vuelve a generar las miniaturas de la galería."
 	@echo ""
 	@echo ""
 
@@ -42,6 +43,10 @@ deploy_a_produccion:
 	@cp -r _site/* dist/
 	@echo "Realizando deploy..."
 	@cd dist; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git push -f
+
+forzar_deploy:
+	git commit --allow-empty -m "Forzando deploy."
+	git push
 
 generar_miniaturas:
 	$(call log, "Iniciando el servidor")
