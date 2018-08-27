@@ -13,7 +13,7 @@ jobs:
           command: bundle exec jekyll build --verbose
       - run:
           name: Instalando surge
-          command: npm install surge -g
+          command: npm install surge@0.19.0 -g
       - run:
           name: Subiendo a surge
           command: surge _site/ -d sitio-web-de-pilas-engine.surge.sh
