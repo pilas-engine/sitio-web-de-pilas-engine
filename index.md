@@ -5,7 +5,7 @@ permalink: /
 order: 1
 ---
 
-<div class="bg-light-gray pa5 br3 tc lh-copy bg-bloques bw1 ba b--light-gray mb5">
+<div class="bg-light-gray pa1 pa5-ns br3 tc lh-copy bg-bloques bw1 ba b--light-gray mb5">
   <div class='f1 source-sans-pro dark-gray'>¡Crea tus propios videojuegos!</div>
   <div class='f4 source-sans-pro pt4 dark-gray'>Pilas Engine te permite crear tus propios videojuegos de manera didáctica y divertida</div>
 
@@ -29,6 +29,7 @@ Ideamos esta herramienta para que los jóvenes puedan descubrir y aprender a pro
 
   <div class="fl w-100 w-33-ns ph3">
     <img src="assets/caracteristicas/primeros-pasos.png">
+    
     <p>Está dirigido a personas que comienzan a programar videojuegos y quieren lograr resultados sorprendentes y divertidos en poco tiempo.</p>
   </div>
 
