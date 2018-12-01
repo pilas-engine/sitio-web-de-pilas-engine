@@ -17,7 +17,7 @@ comandos:
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
 	@echo "    ${G}generar_miniaturas${N}      Vuelve a generar las miniaturas de la galería."
-	@echo "    ${G}forzar_deploy${N}           Vuelve a generar las miniaturas de la galería."
+	@echo "    ${G}forzar_deploy${N}           Realiza un commit de prueba para correr el deploy."
 	@echo ""
 	@echo ""
 
