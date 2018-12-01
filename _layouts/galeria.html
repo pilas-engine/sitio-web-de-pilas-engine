@@ -9,7 +9,7 @@ layout: default
 <div class="tc">
 
 {% for image in site.static_files %}
-  {% if image.path contains 'originales' %}
+  {% if image.path contains '/assets/galeria/originales/' %}
     <a href='{{ site.baseurl }}{{ image.path }}' target="_blank" data-lightbox="roadtrip"><img class='w-20 dib' src='{{ site.baseurl }}{{ image.path  | replace: "originales", "thumbs" | replace: "png", "jpg"}}' alt="image"/></a>
   {% endif %}
 {% endfor %}
