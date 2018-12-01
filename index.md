@@ -11,7 +11,7 @@ order: 1
 
   <div class='mt4'>
     <a class="btn btn-blue white source-sans-pro" target="blank" href="http://app.pilas-engine.com.ar"><img src="/assets/iconos/online.png" class="fl mr2"/> Abrir la versión online</a>
-    <a class="btn btn-green white source-sans-pro" href="descargas"><img src="/assets/iconos/offline.png" class="fl mr2"/> Descargar versión offline</a>
+    <a class="btn btn-green white source-sans-pro" href="descargas/"><img src="/assets/iconos/offline.png" class="fl mr2"/> Descargar</a>
   </div>
 </div>
 
@@ -29,7 +29,7 @@ Ideamos esta herramienta para que los jóvenes puedan descubrir y aprender a pro
 
   <div class="fl w-100 w-33-ns ph3">
     <img src="assets/caracteristicas/primeros-pasos.png">
-    
+
     <p>Está dirigido a personas que comienzan a programar videojuegos y quieren lograr resultados sorprendentes y divertidos en poco tiempo.</p>
   </div>
 
