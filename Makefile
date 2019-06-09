@@ -27,11 +27,11 @@ iniciar:
 
 ejecutar:
 	$(call log, "Iniciando el servidor")
-	jekyll s -l
+	bundler exec jekyll s -l
 
 compilar:
 	$(call log, "Compilando")
-	jekyll build
+	bundler exec jekyll build
 
 deploy_a_produccion:
 	rm -rf _site
