@@ -9,9 +9,7 @@ order: 3
 # Foro de mensajes
 
 <p>
-En el foro de mensajes vas a encontrar una comunidad de usuarios y
-desarrolladores dispuestos a ayudar resulviendo consultas y creando
-videojuegos:
+En el foro de mensajes vas a encontrar una comunidad de personas dispuestas a ayudar y resolver dudas sobre pilas:
 </p>
 
 <div class="tc w-100">

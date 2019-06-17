@@ -53,3 +53,12 @@ body {
 .lightbox {
   padding-top: 3em;
 }
+
+.caja-de-video:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.transition {
+  transition: all 0.15s;
+}

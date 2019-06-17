@@ -40,7 +40,7 @@ La versión clásica de Pilas Engine, también conocida como pilas-python, se pu
 
 <a class="btn btn-blue white source-sans-pro" href="http://static.pilas-engine.com.ar/pilas-engine/1.4.12/pilas-engine_1.4.12.exe"><img src="/assets/iconos/windows.png" class="fl mr2"/> Windows</a>
 
-<a class="btn btn-blue white source-sans-pro" href="http://static.pilas-engine.com.ar/pilas-engine/1.4.12/pilas-engine_1.4.12.exe"><img src="/assets/iconos/osx.png" class="fl mr2"/> OSX</a>
+<a class="btn btn-blue white source-sans-pro" href="http://static.pilas-engine.com.ar/pilas-engine/1.4.12/pilas-engine_1.4.12.dmg"><img src="/assets/iconos/osx.png" class="fl mr2"/> OSX</a>
 
 <a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/tag/1.4.9"><img src="/assets/iconos/linux.png" class="fl mr2"/> Linux </a>
 

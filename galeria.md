@@ -5,4 +5,4 @@ permalink: /galeria/
 order: 5
 ---
 
-## Galería de fotos
+# Galería de fotos
