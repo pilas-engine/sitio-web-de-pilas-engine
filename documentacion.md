@@ -15,10 +15,12 @@ Un buen punto de inicio para comenzar a utilizar pilas es explorar el manual com
 Manuales de la versión actual de pilas, la versión <code>{{version}}</code>:
 
 <div class="tc">
-  <a class="btn btn-blue white source-sans-pro" href="http://manual-pilas-engine.surge.sh/" target="_blank">Ver el manual online</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.pdf">Manual en formato PDF</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.mobi">Manual en formato mobi</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.epub">Manual en formato epub</a>
+  <a class="btn btn-blue white source-sans-pro" href="http://manual-pilas-engine.surge.sh/" target="_blank">Manual online</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.pdf">Manual en PDF</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.mobi">Manual en mobi</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.epub">Manual en epub</a>
+  <a class="btn btn-blue white source-sans-pro" href="https://app.pilas-engine.com.ar/#/api" target="_blank">Ver API</a>
+
 </div>
 
 Versión python-pilas:
@@ -37,78 +39,70 @@ Versión 0.8.3 (en desuso):
   <p class="dib mr2 ml2"><a class="dim link" href="http://pilas-engine.com.ar/docs/api-0.83.0/index.html">Ver API</a></p>
 </div>
 
-
 ## Tutoriales para python-pilas (versión 1.0)
 
-
 {% tutorial
-  titulo: 'Guía de conversión a la nueva versión de pilas-engine'
-  nombre: 'guia_conversion'
-  extension: 'pdf'
+titulo: 'Guía de conversión a la nueva versión de pilas-engine'
+nombre: 'guia_conversion'
+extension: 'pdf'
 
-  detalle: 'En este documento se recoge de manera detallada los cambios que se han producido entre las dos versiones de pilasengine (de las 0.8x iniciales a las posteriores: 0.9, 1.0, 1.1 etc.).',
-%}
-
-
-{% tutorial
-  titulo: 'Disparar a monos'
-  nombre: 'disparar_a_monos'
-  extension: 'pdf'
-
-  detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
+detalle: 'En este documento se recoge de manera detallada los cambios que se han producido entre las dos versiones de pilasengine (de las 0.8x iniciales a las posteriores: 0.9, 1.0, 1.1 etc.).',
 %}
 
 {% tutorial
-  titulo: 'Sprites y Física'
-  nombre: 'mario_renovado'
-  extension: 'pdf'
+titulo: 'Disparar a monos'
+nombre: 'disparar_a_monos'
+extension: 'pdf'
 
-  detalle: 'Muestra los primeros pasos con actores, el motor de física y una comparativa entre pilas y pygame.',
+detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
+%}
+
+{% tutorial
+titulo: 'Sprites y Física'
+nombre: 'mario_renovado'
+extension: 'pdf'
+
+detalle: 'Muestra los primeros pasos con actores, el motor de física y una comparativa entre pilas y pygame.',
 %}
 
 ## Tutoriales para python-pilas (versiónes anteriores a 1.0)
 
-
-
 {% tutorial
-  titulo: 'Disparar a monos'
-  nombre: 'ex_disparar_a_monos'
-  extension: 'pdf'
+titulo: 'Disparar a monos'
+nombre: 'ex_disparar_a_monos'
+extension: 'pdf'
 
-  detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
+detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
 %}
 
 {% tutorial
-  titulo: 'Asteroides'
-  nombre: 'asteroides'
-  extension: 'pdf'
+titulo: 'Asteroides'
+nombre: 'asteroides'
+extension: 'pdf'
 
-  detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
+detalle: 'Una introducción a pilas-engine utilizando un juego de disparos.',
 %}
 
 {% tutorial
-  titulo: 'Sprites y Física'
-  nombre: 'ex_mario'
-  extension: 'pdf'
+titulo: 'Sprites y Física'
+nombre: 'ex_mario'
+extension: 'pdf'
 
-  detalle: 'Muestra los primeros pasos con actores, el motor de física y una comparativa entre pilas y pygame.',
+detalle: 'Muestra los primeros pasos con actores, el motor de física y una comparativa entre pilas y pygame.',
 %}
 
-
 {% tutorial
-  titulo: 'Grillas y Animación'
-  nombre: 'grillas'
-  extension: 'pdf'
+titulo: 'Grillas y Animación'
+nombre: 'grillas'
+extension: 'pdf'
 
-  detalle: 'Guia paso a paso para construir animaciones mediante grillas de gráficos.',
+detalle: 'Guia paso a paso para construir animaciones mediante grillas de gráficos.',
 %}
 
-
-
 {% tutorial
-  titulo: 'Scrolling'
-  nombre: 'scrolling'
-  extension: 'pdf'
+titulo: 'Scrolling'
+nombre: 'scrolling'
+extension: 'pdf'
 
-  detalle: 'Muestra cómo generar el efecto desplazamiento de múltiples capas.',
+detalle: 'Muestra cómo generar el efecto desplazamiento de múltiples capas.',
 %}
