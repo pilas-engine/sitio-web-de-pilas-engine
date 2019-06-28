@@ -1,0 +1,23 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:a8ceafdbaec58fb8e5c6d1be5efdcc2f:6f24bf57a3555b8f1c7d50ac8ad24a4f:61e53af8b0b91020742bc548d44c899f$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprites.png);}
+
+.enjambre-texto {width:100px; height:19px; background-position: -1px -29px}
+.foro {width:25px; height:25px; background-position: -57px -1px}
+.github {width:25px; height:25px; background-position: -84px -1px}
+.linux {width:25px; height:25px; background-position: -1px -50px}
+.offline {width:26px; height:26px; background-position: -1px -1px}
+.online {width:26px; height:26px; background-position: -29px -1px}
+.osx {width:25px; height:25px; background-position: -28px -50px}
+.raspberry {width:25px; height:25px; background-position: -55px -50px}
+.windows {width:25px; height:25px; background-position: -82px -50px}

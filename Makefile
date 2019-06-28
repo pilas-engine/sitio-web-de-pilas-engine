@@ -16,6 +16,7 @@ comandos:
 	@echo "    ${G}iniciar${N}                 Instala las dependencias."
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
+	@echo "    ${G}actualizar_sprites${N}      Genera el spritesheet con todos los íconos."
 	@echo "    ${G}generar_miniaturas${N}      Vuelve a generar las miniaturas de la galería."
 	@echo "    ${G}forzar_deploy${N}           Realiza un commit de prueba para correr el deploy."
 	@echo ""
@@ -50,6 +51,9 @@ deploy_a_produccion:
 forzar_deploy:
 	git commit --allow-empty -m "Forzando deploy."
 	git push
+
+actualizar_sprites:
+	TexturePacker imagenes/sprites.tps
 
 generar_miniaturas:
 	$(call log, "Iniciando el servidor")

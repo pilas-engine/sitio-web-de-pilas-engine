@@ -10,7 +10,7 @@ layout: default
 
 {% for image in site.static_files %}
   {% if image.path contains '/assets/galeria/originales/' %}
-    <a href='{{ site.baseurl }}{{ image.path }}' target="_blank" data-lightbox="roadtrip"><img class='w-20 dib' src='{{ site.baseurl }}{{ image.path  | replace: "originales", "thumbs" | replace: "png", "jpg"}}' alt="image"/></a>
+    <a class="bg-gray dib w5 h4 ma1" href='{{ site.baseurl }}{{ image.path }}' target="_blank" data-lightbox="roadtrip"><img src='{{ site.baseurl }}{{ image.path  | replace: "originales", "thumbs" | replace: "png", "jpg"}}' alt="image"/></a>
   {% endif %}
 {% endfor %}
 

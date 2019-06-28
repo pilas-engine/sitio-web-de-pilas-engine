@@ -16,10 +16,10 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
 <!--p class="ba">{{site.github.latest_release}}</p -->
 
 <div class="tc">
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-windows-64_bits.zip"><img src="/assets/iconos/windows.png" class="fl mr2"/> Windows de 64 bits</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-osx-64_bits.zip"><img src="/assets/iconos/osx.png" class="fl mr2"/> OSX de 64 bits</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-linux-64_bits.zip"><img src="/assets/iconos/linux.png" class="fl mr2"/> GNU/Linux de 64 bits</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-linux-64_bits.zip"><img src="/assets/iconos/raspberry.png" class="fl mr2"/> Raspberry</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-windows-64_bits.zip"><i class="sprite windows mr2 v-btm"></i> Windows de 64 bits</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-osx-64_bits.zip"><i class="sprite osx mr2 v-btm"></i> OSX de 64 bits</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-linux-64_bits.zip"><i class="sprite linux mr2 v-btm"></i> GNU/Linux de 64 bits</a>
+  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-linux-64_bits.zip"><i class="sprite raspberry mr2 v-btm"></i> Raspberry</a>
 </div>
 
 <div class="tc mt2">
@@ -34,14 +34,14 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
 
 ## Versión clásica
 
-La versión clásica de Pilas Engine, también conocida como pilas-python, se puede descargar desde aquí <a href="https://github.com/hugoruscitti/pilas/">o bien desde el nuestro repositorio de pilas-engine 1</a>
+La versión clásica de Pilas Engine, también conocida como pilas-python, se puede descargar desde aquí o bien desde el nuestro repositorio de <a href="https://github.com/hugoruscitti/pilas/" target="_blank">pilas-engine 1</a>
 
 <div class="tc">
 
-<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/download/1.4.9/pilas-engine_1.4.3.exe"><img src="/assets/iconos/windows.png" class="fl mr2"/> Windows</a>
+<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/download/1.4.9/pilas-engine_1.4.3.exe"><i class="sprite windows mr2 v-btm"></i> Windows</a>
 
-<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/download/1.4.9/pilas-engine-1.4.3.dmg"><img src="/assets/iconos/osx.png" class="fl mr2"/> OSX</a>
+<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/download/1.4.9/pilas-engine-1.4.3.dmg"><i class="sprite osx mr2 v-btm"></i> OSX</a>
 
-<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/tag/1.4.9"><img src="/assets/iconos/linux.png" class="fl mr2"/> Linux </a>
+<a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/tag/1.4.9"><i class="sprite linux mr2 v-btm"></i> Linux </a>
 
 </div>

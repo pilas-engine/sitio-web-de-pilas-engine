@@ -7,7 +7,7 @@
     {%- if page_paths -%}
 
 
-    <div id="sm-nav-container" class="absolute dn-ns w-100 vh-100 bg-white overflow-auto">
+    <div class="absolute dn-ns w-100 vh-100 bg-white overflow-auto">
       <nav id="sm-nav-bg" class="w-100 h-100">
         <div id="closeNav" class="toggle tr db" ><img class="pa3 w1" src="/assets/close.png"></div>
 
@@ -32,9 +32,6 @@
         <img class="h3" src="/assets/logo.png">
       </a>
 
-
-
-
       <div class="dtc-l v-mid w-100 w-75-l tc tr-l dn db-ns">
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -46,23 +43,6 @@
         {%- endfor -%}
       </div>
 
-<script>
-var openNavButton = document.getElementById("openNav");
-var closeNavButton = document.getElementById("closeNav");
-var smNav = document.getElementById("sm-nav-container");
-
-smNav.style.display = "none";
-
-openNavButton.addEventListener("click", function() {
-  smNav.style.display = "block";
-  smNav.classList.toggle("onscreen");
-});
-
-closeNavButton.addEventListener("click", function() {
-  smNav.style.display = "none";
-  smNav.classList.toggle("onscreen");
-});
-</script>
 
     </nav>
     {%- endif -%}
