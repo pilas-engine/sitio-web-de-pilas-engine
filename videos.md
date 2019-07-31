@@ -10,6 +10,78 @@ order: 4
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
+## Tutorial - Cómo hacer un Flappy Bird
+
+{% video
+  url: 'https://youtu.be/naMNH2eHMF8'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-01.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 1'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/tc0amub-1Wo'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-02.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 2'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/5-9vL7KAaF4'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-03.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 3'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/J3CzAbH-keg'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-04.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 4'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/v1ogU013Lmk'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-05.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 5'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/fORR8xCX17Y'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-06.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 6'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/uBsM6N-1gqk'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-07.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 7'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/ycJva4vLIEA'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-08.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 8'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/gCvHIVYrVKM'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-09.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 9'
+  subtitulo: 'pilas-engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/xk89v6cZ4PU'
+  imagen: '/assets/videos/tutorial-flappy-bird/Como-crear-un-Flappy-Bird-con-Pilas-Engine-2-Video-10.jpg'
+  titulo: 'Cómo hacer un Flappy Bird Video 10'
+  subtitulo: 'pilas-engine 2'
+%}
+
 ## Demos
 
 {% video
