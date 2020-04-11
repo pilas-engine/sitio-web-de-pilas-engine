@@ -1,50 +1,87 @@
-<header class="site-header fixed top-0 left-0 right-0 bg-white shadow-1 z-max" role="banner">
+<header class="unselectable">
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+  <div class="desktop-only">
 
-    {%- if page_paths -%}
+    <div class="site-header fixed top-0 left-0 right-0 bg-white shadow-1 z-max" role="banner">
+      <div class="wrapper">
+        {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+        {%- if page_paths -%}
+
+        <nav class="db w-100 border-box pa0 sans-serif flex items-center">
+
+          <a href="{{ "/" | relative_url }}" class="v-mid mid-gray link dim w5 pl3" href="#" title="home">
+            <img class="logo" width="183" height="64" src="/assets/logo.png">
+          </a>
+
+          <div class="v-mid w-100 tr truncate">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3
+                  {% if my_page.url == page.url %}bg-light-gray{% endif %}
+                " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
 
 
-    <div class="absolute dn-ns w-100 vh-100 bg-white overflow-auto">
-      <nav id="sm-nav-bg" class="w-100 h-100">
-        <div id="closeNav" class="toggle tr db" ><img class="pa3 w1" src="/assets/close.png"></div>
+        </nav>
+        {%- endif -%}
+      </div>
 
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-            <a class="link source-sans-pro dim dark-gray f5 db tc mr1-l pa3
-              {% if my_page.url == page.url %}bg-light-gray{% endif %}
-            " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-        {%- endfor -%}
-      </nav>
     </div>
 
-    <nav class="db dt-l w-100 border-box pa0 ph5-l sans-serif">
+  </div>
 
-      <div id="openNav" class="toggle dib dn-ns pointer v-top pt3 mt1 ph3">
-        <img src="/assets/menu.png"> <span class="dib v-top pt1 pl1"></span>
+  <div class="mobile-only">
+    <div class="site-header fixed top-0 left-0 right-0 bg-white shadow-1 z-max" role="banner">
+
+      <script type="text/javascript">
+        function mostrar_menu() {
+          let menu = document.getElementById("menu");
+          menu.classList.toggle("dn");
+        }
+
+
+        function ocultar_menu() {
+          let menu = document.getElementById("menu");
+          menu.classList.push("dn");
+        }
+      </script>
+
+      <div class="wrapper">
+        {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+        {%- if page_paths -%}
+
+        <nav class="db dt-l w-100 border-box pa0 ph5-l sans-serif">
+          <div onclick="mostrar_menu()" class="dib f3 pa3 debug v-mid pointer dim">
+             ☰
+          </div>
+
+          <a href="{{ "/" | relative_url }}" class="dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="home">
+            <img class="h3" src="/assets/logo.png">
+          </a>
+
+          <div id="menu" class="dn dtc-l v-mid w-100 w-75-l tc tr-l">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <a onclick="ocultar_menu();" class="link source-sans-pro dim dark-gray f5 db mr1-l ph2 pt3 pb3
+                  {% if my_page.url == page.url %}bg-light-gray{% endif %}
+                " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+
+        </nav>
+        {%- endif -%}
       </div>
 
-      <a href="{{ "/" | relative_url }}" class="db-ns dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-        <img class="h3" src="/assets/logo.png">
-      </a>
-
-      <div class="dtc-l v-mid w-100 w-75-l tc tr-l dn db-ns">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-            <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3
-              {% if my_page.url == page.url %}bg-light-gray{% endif %}
-            " href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-
-
-    </nav>
-    {%- endif -%}
+    </div>
   </div>
 </header>
