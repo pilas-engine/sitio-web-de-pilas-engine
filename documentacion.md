@@ -15,7 +15,7 @@ Un buen punto de inicio para comenzar a utilizar pilas es explorar el manual com
 Manuales de la versión actual de pilas, la versión <code>{{version}}</code>:
 
 <div class="tc">
-  <a class="btn btn-blue white source-sans-pro" href="http://manual-pilas-engine.surge.sh/" target="_blank">Manual online</a>
+  <a class="btn btn-blue white source-sans-pro" href="https://app.pilas-engine.com.ar/manual/index.html" target="_blank">Manual online</a>
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.pdf">Manual en PDF</a>
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.mobi">Manual en mobi</a>
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.epub">Manual en epub</a>
