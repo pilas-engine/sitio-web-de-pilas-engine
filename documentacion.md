@@ -30,14 +30,20 @@ Versión python-pilas:
   <p class="dib mr2 ml2"><a href="http://api.pilas-engine.com.ar/" target="_blank" class="link dim">Ver API</a></p>
   <p class="dib mr2 ml2"><a href="/assets/documentacion/pilas-engine-general-brochure.pdf" target="_blank" class="link dim">Mini tutorial</a></p>
   <p class="dib mr2 ml2"><a href="/assets/documentacion/pilas-engine-general-brochure-huayra.pdf" target="_blank" class="link dim">Mini tutorial (huayra)</a></p>
+
+  <p class="dib mr2 ml2"><a class="dim link" href="https://pilas.readthedocs.org/en/latest/">Ver el manual (ver 0.83)</a></p>
+  <p class="dib mr2 ml2"><a class="dim link" href="http://pilas-engine.com.ar/docs/api-0.83.0/index.html">Ver API (ver 0.83)</a></p>
 </div>
 
-Versión 0.8.3 (en desuso):
+## Tutoriales para la versión más reciente
 
-<div class="tc">
-  <p class="dib mr2 ml2"><a class="dim link" href="https://pilas.readthedocs.org/en/latest/">Ver el manual</a></p>
-  <p class="dib mr2 ml2"><a class="dim link" href="http://pilas-engine.com.ar/docs/api-0.83.0/index.html">Ver API</a></p>
-</div>
+{% tutorial_html
+  nombre: "asteroides"
+  titulo: "Asteroides"
+  descripcion: "Cómo hacer el clásico juego de asteroides con pilas."
+  autor: "Mailén Sturtz"
+%}
+
 
 ## Tutoriales para python-pilas (versión 1.0)
 
