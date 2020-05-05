@@ -11,7 +11,7 @@ para la versión 2 de Pilas Engine.
 Uno de los tutoriales, desarrollado por Mailén Sturtz, muestra
 cómo crear un juego de asteroides completo.
 
-El otro tutorial, desarrollado por Martín Carrión y Rodolfo Emiliano,
+El otro tutorial, desarrollado por Martín Carrión, Rodolfo Emiliano,
 muestra cómo crear un juego de disparos con los personajes clásicos
 de pilas.
 

@@ -48,7 +48,7 @@ Versión python-pilas:
   nombre: "monos"
   titulo: "Disparar a monos"
   descripcion: "Cómo hacer un juego de disparos paso a paso."
-  autor: "Martín Carrión y Rodolfo Emiliano"
+  autor: "Martín Carrión, Rodolfo Emiliano"
 %}
 
 
