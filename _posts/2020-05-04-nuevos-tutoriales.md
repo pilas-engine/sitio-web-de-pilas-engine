@@ -15,7 +15,7 @@ El otro tutorial, desarrollado por Martín Carrión y Rodolfo Emiliano,
 muestra cómo crear un juego de disparos con los personajes clásicos
 de pilas.
 
-Miralos en la sección [documentación](/documentacion)
+Miralos en la sección [documentación](/documentacion/)
 
 ¡Que los disfrutes!
 
