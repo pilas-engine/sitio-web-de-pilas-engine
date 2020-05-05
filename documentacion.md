@@ -44,6 +44,14 @@ Versión python-pilas:
   autor: "Mailén Sturtz"
 %}
 
+{% tutorial_html
+  nombre: "monos"
+  titulo: "Disparar a monos"
+  descripcion: "Cómo hacer un juego de disparos paso a paso."
+  autor: "Martín Carrión y Rodolfo Emiliano"
+%}
+
+
 
 ## Tutoriales para python-pilas (versión 1.0)
 

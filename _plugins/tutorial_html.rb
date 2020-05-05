@@ -11,7 +11,7 @@ module Jekyll
       render = %Q[
         <div class="flex pb3">
           <div class="ph2">
-            <a href="/tutoriales/#{nombre}/"><img src="/tutoriales/#{nombre}/icono.png"></a>
+            <a href="/tutoriales/#{nombre}/"><img src="/assets/tutoriales/#{nombre}/icono.png"></a>
           </div>
 
           <div>

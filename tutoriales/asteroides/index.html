@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: tutorial
+autor: Mailén Sturtz
+fecha: 3 de Mayo 2020
 ---
 
 <h1>Asteroides</h1>
@@ -16,25 +18,25 @@ actor principal de nuestro juego, la nave espacial, con el desarrollo del movimi
 sonido ya codificados.</p>
 
 
-<img src="imagenes/principal.png" alt="">
+<img src="/assets/tutoriales/asteroides/principal.png" alt="">
 
 <p>Para entender lo que se encuentra codificado en este ejemplo, analizamos cada sección del
 mismo.</p>
 
 
-<img src="imagenes/codigo-de-la-nave.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-de-la-nave.png" alt="">
 
 <p>Primero se encuentra definido qué imagen vamos a utilizar para representar a nuestro actor
 principal al comienzo del juego, con qué rapidez se va a desplazar y dejamos una variable para
 controlar el láser que dispara nuestra nave.</p>
 
-<img src="imagenes/nave-iniciar.png" alt="">
+<img src="/assets/tutoriales/asteroides/nave-iniciar.png" alt="">
 
 <p>Luego, tenemos la sección de la animación, lo que se encuentra definido aquí son las diferentes
 imágenes que vamos a utilizar para darle realismo a nuestro juego haciendo que la nave parezca que
 activa y desactiva sus propulsores para avanzar o girar.</p>
 
-<img src="imagenes/actualizar.png" alt="">
+<img src="/assets/tutoriales/asteroides/actualizar.png" alt="">
 
 <p>Por último, encontramos como se va a desplazar nuestra nave al accionar las distintas flechas de
 nuestro teclado, arriba, derecha e izquierda. Al presionar alguna de las mencionadas teclas
@@ -53,7 +55,7 @@ funcionalidad para tener nuestro juego. ¡Manos a la obra!</p>
 aparecemos por el extremo contrario, para dar este efecto incorporamos en la sección actualizar lo
 siguiente:</p>
 
-<img src="imagenes/condiciones.png" alt="">
+<img src="/assets/tutoriales/asteroides/condiciones.png" alt="">
 
 <p>Con ello, cuando llegamos a un extremo de la ventana nos redirige al extremo opuesto. Debido a
 que la ventana posee sus extremos en los valores 250 es que se utilizó los mismos para ello. </p>
@@ -65,12 +67,12 @@ opuesto.</p>
 <p>Lo siguiente que integraremos al juego son los asteroides que nuestra nave va a destruir con su
 láser. Para ello agregamos un nuevo actor en la opción de Crear Actor.</p>
 
-<img src="imagenes/crear-actor.png" alt="">
+<img src="/assets/tutoriales/asteroides/crear-actor.png" alt="">
 
 <p>Al presionar este botón se nos abrirá la siguiente ventana y seleccionaremos la opción
 actor.</p>
 
-<img src="imagenes/actor.png" alt="">
+<img src="/assets/tutoriales/asteroides/actor.png" alt="">
 
 <p>Esta opción nos permitirá elegir el aspecto que le queramos dar y podremos configurarlo como nos
 sea más útil. En este caso nosotros le colocaremos de nombre “asteroide”, como imagen usaremos la que se
@@ -78,7 +80,7 @@ denomina “asteroide_grande” y lo colocaremos en una esquina para tener más 
 estamos trabajando, se pueden desplazar los actores seleccionandolo en la ventana y arrastrándolo
 al lugar que querramos.</p>
 
-<img src="imagenes/con-asteroide.png" alt="">
+<img src="/assets/tutoriales/asteroides/con-asteroide.png" alt="">
 
 <p>Este asteroide se desplazará desde arriba hacia abajo, y si toca nuestra nave perderemos el
 juego. Para realizar esto, primero haremos que el mismo se desplace, para ello lo seleccionaremos,
@@ -86,13 +88,13 @@ se puede seleccionar desde la ventana o por su nombre en el sector “Escena y a
 su código colocaremos una de las recetas predefinidas “Mover el actor hacia la izquierda y eliminar
 si sale de la pantalla”.</p>
 
-<img src="imagenes/receta-1.png" alt="">
+<img src="/assets/tutoriales/asteroides/receta-1.png" alt="">
 
 <p>Como esta Receta nos incluye otro método “actualizar” eliminamos el anterior, y modificamos la
 velocidad para ralentizar su caída, modificamos para que el eje donde actúe sea el eje y, tanto en
 la velocidad como en la pregunta.</p>
 
-<img src="imagenes/codigo-de-asteroide.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-de-asteroide.png" alt="">
 
 <p>Como vemos agregamos la línea <code>this.rotacion += 20</code> que le dará un efecto más
 realista al asteroide ya que permite que el mismo rote mientras se está desplazando. También, hemos
@@ -103,12 +105,12 @@ distintos cada vez, y que su ubicación este fuera de pantalla al iniciar el jue
 que haya varios, para ello nos dirigimos al escenario “principal”, y en su código elegimos la
 receta “Crear copias (o clones) de un actor cada determinado tiempo”.</p>
 
-<img src="imagenes/receta-temporizador.png" alt="">
+<img src="/assets/tutoriales/asteroides/receta-temporizador.png" alt="">
 
 <p>Modificamos la receta para que genere un asteroide cada 3 segundos y otro cada 2 segundos, para
 tener una mayor cantidad pero con lapsos de tiempo distintos.</p>
 
-<img src="imagenes/codigo-escena.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-escena.png" alt="">
 
 <p>Tenemos nuestros asteroides, ahora haremos que cuando chocan con nuestra nave, ésta se destruya
 y nos permita reintentar el juego. Para ello, le asignaremos tanto a la nave como al asteroide una
@@ -117,7 +119,7 @@ valor de 20, para que se ajuste mejor a su tamaño. A la nave le desactivaremos 
 “Dinámica”, y al asteroide le activaremos la opción “¿Es sensor?” que permite que la nave no cambie
 su rumbo debido a que chocó con otro actor. Para ambos debe quedar de la siguiente manera:</p>
 
-<img src="imagenes/propiedades-1.png" alt="">
+<img src="/assets/tutoriales/asteroides/propiedades-1.png" alt="">
 
 
 <p>Para darle más realismo, haremos que cuando la nave se destruya aparezca una explosión. Añadimos
@@ -125,27 +127,27 @@ un nuevo actor como hicimos con el asteroide, lo llamaremos “explosion”  y e
 “explosion_003”. Algo muy importante, es que este actor no aparezca al iniciar el juego, para ello
 desactivaremos la opción “Activo”.</p>
 
-<img src="imagenes/explosion-inactiva.png" alt="">
+<img src="/assets/tutoriales/asteroides/explosion-inactiva.png" alt="">
 
 <p>Y para permitirle al usuario volver a iniciar el juego, crearemos otro actor, pero esta vez,
 seleccionaremos uno ya predefinido, “reiniciar_escena”.</p>
 
-<img src="imagenes/reiniciar-escena.png" alt="">
+<img src="/assets/tutoriales/asteroides/reiniciar-escena.png" alt="">
 
 <p>Como tampoco queremos que aparezca cuando inicie el juego, también le desactivamos la opción
 “Activo”.</p>
 
-<img src="imagenes/reiniciar-inactivo.png" alt="">
+<img src="/assets/tutoriales/asteroides/reiniciar-inactivo.png" alt="">
 
 <p>Con todos estos actores creados y personalizados, nos dirigimos al código de la nave y vamos a
 incluir una receta del tipo “Cuando colisiona emitir un mensaje y eliminar si es enemigo”.</p>
 
-<img src="imagenes/eliminar-si-es-enemigo.png" alt="">
+<img src="/assets/tutoriales/asteroides/eliminar-si-es-enemigo.png" alt="">
 
 
 <p>Modificamos la receta de la siguiente manera:</p>
 
-<img src="imagenes/codigo-explosion.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-explosion.png" alt="">
 
 
 <p>La primera línea elimina el actor nave, la segunda hace aparecer la explosión en el lugar donde
@@ -156,7 +158,7 @@ estaba la nave en el momento que chocó, y la tercera línea permite que se visu
 pantalla vibre para darle un mejor efecto a la situación. Esto lo podemos lograr ingresando dentro
 del código del actor “explosion” e introduciendo las siguientes líneas:</p>
 
-<img src="imagenes/explosion-iniciar.png" alt="">
+<img src="/assets/tutoriales/asteroides/explosion-iniciar.png" alt="">
 
 
 <p>La primera línea reproduce el sonido que mencionamos, y la segunda línea hace vibrar la pantalla
@@ -172,12 +174,12 @@ de puntos.</p>
 <p>Para colocar el puntaje del juego vamos a crear un actor del tipo “puntaje” y lo vamos a colocar
 en la esquina superior derecha.</p>
 
-<img src="imagenes/puntaje.png" alt="">
+<img src="/assets/tutoriales/asteroides/puntaje.png" alt="">
 
 <p>Y para el laser, necesitamos realizar unas modificaciones. Primero vamos a crear un actor del
 tipo “laser” y le vamos a cambiar las siguientes propiedades:</p>
 
-<img src="imagenes/propiedes-del-laser.png" alt="">
+<img src="/assets/tutoriales/asteroides/propiedes-del-laser.png" alt="">
 
 <p>Como ya hemos utilizado, “Activo” lo deshabilitamos para que no aparezca cuando iniciamos el
 juego, “Etiqueta” es para reconocer el actor, la “Figura” con su tamaño la colocamos para que pueda
@@ -188,7 +190,7 @@ la gravedad del juego.</p>
 del mismo, dentro de actualizar(), para que en vez de poseer un láser predefinido utilicemos el que
 acabamos de crear.</p>
 
-<img src="imagenes/clona-laser.png" alt="">
+<img src="/assets/tutoriales/asteroides/clona-laser.png" alt="">
 
 
 <p>Ahora para destruir el asteroide incluimos en su código la receta del tipo “Cuando colisiona
@@ -200,7 +202,7 @@ que se destruye es la nave perdiendo el juego.</p>
 <p>También podemos observar que incrementamos el puntaje al destruir al asteroide y reproducimos un
 sonido para que sea más realista.</p>
 
-<img src="imagenes/cuando-comienza-colision.png" alt="">
+<img src="/assets/tutoriales/asteroides/cuando-comienza-colision.png" alt="">
 
 <p>Si damos en el botón “Ejecutar” vemos como ha quedado nuestro pequeño juego.</p>
 
@@ -215,14 +217,14 @@ incluir dentro de nuestro juego creando otro actor del tipo “actor”, le pone
 habilitamos la opción “¿Es sensor?” para que no desvie a la nave en su trayectoria al chocar con
 él.</p>
 
-<img src="imagenes/extra-1.png" alt="">
+<img src="/assets/tutoriales/asteroides/extra-1.png" alt="">
 
 
 <p>Como podemos ver, tiene propiedades muy parecidas al actor asteroide. Y como el asteroide, vamos
 a hacer que aparezcan estos bonus cada cierto tiempo, para ello vamos a la escena “principal”, y
 agregamos que se generen los mismos.</p>
 
-<img src="imagenes/codigo-de-escena-2.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-de-escena-2.png" alt="">
 
 
 <p>Luego, para controlar su movimiento, realizamos los mismos pasos que con el asteroide,
@@ -232,14 +234,14 @@ aparece al inicio el bonus, que en este caso es 300, lo realice así para que el
 apenas inicia el juego, sino que deje un tiempo de espera.</p>
 
 
-<img src="imagenes/codigo-bonus.png" alt="">
+<img src="/assets/tutoriales/asteroides/codigo-bonus.png" alt="">
 
 
 <p>Y por último, agregamos en el código de la nave que al chocar con estos bonus no se destruya,
 sino que sume puntos al puntaje del juego. Esto lo hacemos modificando lo siguiente:</p>
 
 
-<img src="imagenes/colision-con-bonus.png" alt="">
+<img src="/assets/tutoriales/asteroides/colision-con-bonus.png" alt="">
 
 
 <p>Podemos probar nuestro juego dando en el botón “Ejecutar”.</p>
