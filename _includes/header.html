@@ -66,9 +66,12 @@
           <div id="menu" class="dn dtc-l v-mid w-100 w-75-l tc tr-l">
             {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
+
               {%- if my_page.title -%}
                 <a onclick="ocultar_menu();" class="link source-sans-pro dim dark-gray f5 db mr1-l ph2 pt3 pb3 {% if my_page.url == page.url %}bg-light-gray{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                
               {%- endif -%}
+
             {%- endfor -%}
           </div>
 
