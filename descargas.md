@@ -13,7 +13,7 @@ order: 3
 La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada en la fecha {{site.github.latest_release.published_at  | date: '%d/%m/%Y'}})
 :
 
-<!--p class="ba">{{site.github.latest_release}}</p -->
+<!-- {{site.github.latest_release.published_at}} -->
 
 <div class="tc">
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/pilas-engine-windows-64_bits.zip"><i class="sprite windows mr2 v-btm"></i> Windows de 64 bits</a>
