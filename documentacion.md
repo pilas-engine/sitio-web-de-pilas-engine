@@ -17,7 +17,6 @@ Manuales de la versión actual de pilas, la versión <code>{{version}}</code>:
 <div class="tc">
   <a class="btn btn-blue white source-sans-pro" href="https://app.pilas-engine.com.ar/manual/index.html" target="_blank">Manual online</a>
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.pdf">Manual en PDF</a>
-  <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.mobi">Manual en mobi</a>
   <a class="btn btn-blue white source-sans-pro" href="{{baseurl}}{{version}}/book.epub">Manual en epub</a>
   <a class="btn btn-blue white source-sans-pro" href="https://app.pilas-engine.com.ar/#/api" target="_blank">Ver API</a>
 
@@ -50,8 +49,6 @@ Versión python-pilas:
   descripcion: "Cómo hacer un juego de disparos paso a paso."
   autor: "Martín Carrión, Rodolfo Emiliano"
 %}
-
-
 
 ## Tutoriales para python-pilas (versión 1.0)
 
