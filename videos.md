@@ -10,6 +10,15 @@ order: 4
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
+## Tutorial - Cómo hacer un juego de plataformas
+
+{% video
+  url: 'https://youtu.be/2ISsm9Dc4jA'
+  imagen: '/assets/videos/plataformas/plataformas.jpg'
+  titulo: 'Cómo hacer un juego de plataformas con Pilas Engine 2'
+  subtitulo: 'Pilas Engine 2'
+%}
+
 ## Tutorial - Cómo hacer un Flappy Bird
 
 {% video
