@@ -37,6 +37,13 @@ Versión python-pilas:
 ## Tutoriales para la versión más reciente
 
 {% tutorial_html
+  nombre: "arkanoid"
+  titulo: "Arkanoid"
+  descripcion: "Cómo crear el videojuego Arkanoid con pilas."
+  autor: "Mailén Sturtz y Martín Carrión, Rodolfo Emiliano"
+%}
+
+{% tutorial_html
   nombre: "asteroides"
   titulo: "Asteroides"
   descripcion: "Cómo hacer el clásico juego de asteroides con pilas."
