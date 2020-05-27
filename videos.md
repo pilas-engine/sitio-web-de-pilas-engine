@@ -19,6 +19,36 @@ conocer más sobre pilas:
   subtitulo: 'Pilas Engine 2'
 %}
 
+## Tutorial - Cómo crear el juego Nave vs Aliens
+
+{% video
+  url: 'https://youtu.be/42eHA5zZKGQ'
+  imagen: '/assets/videos/nave-vs-aliens/video-1.jpg'
+  titulo: 'Nave vs Aliens - Parte 1'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/9ZS9WXt3L7A'
+  imagen: '/assets/videos/nave-vs-aliens/video-2.jpg'
+  titulo: 'Nave vs Aliens - Parte 2'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/RPOc5yfIcM8'
+  imagen: '/assets/videos/nave-vs-aliens/video-3.jpg'
+  titulo: 'Nave vs Aliens - Parte 3'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://youtu.be/94PB8bSNdHY'
+  imagen: '/assets/videos/nave-vs-aliens/video-4.jpg'
+  titulo: 'Nave vs Aliens - Parte 4'
+  subtitulo: 'Pilas Engine 2'
+%}
+
 ## Tutorial - Cómo hacer un Flappy Bird
 
 {% video
