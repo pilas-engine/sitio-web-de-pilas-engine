@@ -37,6 +37,13 @@ Versión python-pilas:
 ## Tutoriales para la versión más reciente
 
 {% tutorial_html
+  nombre: "apilador-de-cajas"
+  titulo: "Apilador de Cajas"
+  descripcion: "Muestra como crear un desafiante juego de equilibrio con cajas."
+  autor: "Juan Pablo Zablosky"
+%}
+
+{% tutorial_html
   nombre: "arkanoid"
   titulo: "Arkanoid"
   descripcion: "Cómo crear el videojuego Arkanoid con pilas."
