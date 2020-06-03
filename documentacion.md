@@ -37,6 +37,13 @@ Versión python-pilas:
 ## Tutoriales para la versión más reciente
 
 {% tutorial_html
+  nombre: "nave-vs-aliens"
+  titulo: "Nave vs aliens"
+  descripcion: "Muestra como crear un juego de naves con enemigos."
+  autor: "Juan Pablo Zablosky"
+%}
+
+{% tutorial_html
   nombre: "apilador-de-cajas"
   titulo: "Apilador de Cajas"
   descripcion: "Muestra como crear un desafiante juego de equilibrio con cajas."
