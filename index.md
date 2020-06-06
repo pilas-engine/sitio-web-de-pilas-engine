@@ -21,7 +21,7 @@ Pilas Engine es una herramienta para construir videojuegos de manera sencilla y 
 
 Ideamos esta herramienta para que los jóvenes puedan descubrir y aprender a programar computadoras. Creemos que aprender a programar es espectacular, porque les permite tener el control de las computadora, inventar y desarrollar cualquier tipo de software.
 
-![]({{ "/assets/editor.png"}})
+![]({{ "/assets/editor_2.png"}})
 
 ## ¿Qué características incluye Pilas Engine?
 
