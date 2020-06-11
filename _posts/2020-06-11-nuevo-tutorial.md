@@ -11,6 +11,6 @@ juego de carreras.
 Mirá este tutorial en nuestra sección de
 documentación:
 
-- [Ver tutoriales](/tutoriales/carreras/)
+- [Abrir el tutorial Juego de carreras](/tutoriales/carreras/)
 
 ![](/assets/noticias/carreras.jpg)
