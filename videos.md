@@ -10,6 +10,51 @@ order: 4
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
+## Tutorial - Cómo hacer un juego de lluvia de objetos con Pilas Engine
+
+{% video
+  url: 'https://www.youtube.com/watch?v=RlYNusP6_xc&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=2'
+  imagen: '/assets/videos/lluvia/video-1.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 1'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://www.youtube.com/watch?v=XcQIAUq7tLo&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=3'
+  imagen: '/assets/videos/lluvia/video-2.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 2'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://www.youtube.com/watch?v=Lv3hQa2qfOk&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=4'
+  imagen: '/assets/videos/lluvia/video-3.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 3'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://www.youtube.com/watch?v=DwPKeBDZ-UA&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=5'
+  imagen: '/assets/videos/lluvia/video-4.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 4'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://www.youtube.com/watch?v=RbMX2MFzX_I&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=6'
+  imagen: '/assets/videos/lluvia/video-5.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 5'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+{% video
+  url: 'https://www.youtube.com/watch?v=n-cHJcA_UN8&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=7'
+  imagen: '/assets/videos/lluvia/video-6.jpg'
+  titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 6'
+  subtitulo: 'Pilas Engine 2'
+%}
+
+
 ## Tutorial - Cómo hacer un juego de plataformas
 
 {% video
