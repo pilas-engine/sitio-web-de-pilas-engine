@@ -37,6 +37,13 @@ Versión python-pilas:
 ## Tutoriales para la versión más reciente
 
 {% tutorial_html
+  nombre: "carreras"
+  titulo: "Juego de carreras"
+  descripcion: "Se muestra cómo crear un juego de carreras donde debemos esquivar obstáculos."
+  autor: "Gonzalo Gauna"
+%}
+
+{% tutorial_html
   nombre: "nave-vs-aliens"
   titulo: "Nave vs aliens"
   descripcion: "Muestra como crear un juego de naves con enemigos."
