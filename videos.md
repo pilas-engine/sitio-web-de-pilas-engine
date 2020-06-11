@@ -10,7 +10,7 @@ order: 4
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
-## Tutorial - Cómo hacer un juego de lluvia de objetos con Pilas Engine
+## Tutorial - Cómo desarrollar un juego de lluvia de objetos con Pilas Engine
 
 {% video
   url: 'https://www.youtube.com/watch?v=RlYNusP6_xc&list=PLMcyx1__1feHObgQvR189UGRCmH1ZsTar&index=2'
