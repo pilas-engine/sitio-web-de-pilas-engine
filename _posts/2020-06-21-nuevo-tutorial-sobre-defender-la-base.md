@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nuevo tutorial: Defiende la base
+title: "Nuevo tutorial: Defiende la base"
 tags: []
 ---
 

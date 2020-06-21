@@ -37,6 +37,13 @@ Versión python-pilas:
 ## Tutoriales para la versión más reciente
 
 {% tutorial_html
+  nombre: "defiende-la-base"
+  titulo: "Defiende la base"
+  descripcion: "Se muestra cómo crear un juego en el que debes poner defensores que disparen a los zombis antes de que lleguen a tu base."
+  autor: "Santiago Arguello"
+%}
+
+{% tutorial_html
   nombre: "carreras"
   titulo: "Juego de carreras"
   descripcion: "Se muestra cómo crear un juego de carreras donde debemos esquivar obstáculos."
