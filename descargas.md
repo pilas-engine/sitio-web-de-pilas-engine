@@ -30,6 +30,7 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.pdf">Manual en formato PDF</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.mobi">Manual en formato mobi</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.epub">Manual en formato epub</a></p>
+  <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/version-minima.zip">Versión mínima como biblioteca</a></p>
 </div>
 
 ## Versión clásica
@@ -43,6 +44,5 @@ La versión clásica de Pilas Engine, también conocida como pilas-python, se pu
 <a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/download/1.4.9/pilas-engine-1.4.3.dmg"><i class="sprite osx mr2 v-btm"></i> OSX</a>
 
 <a class="btn btn-blue white source-sans-pro" href="https://github.com/hugoruscitti/pilas/releases/tag/1.4.9"><i class="sprite linux mr2 v-btm"></i> Linux </a>
-
 
 </div>
