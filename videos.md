@@ -10,6 +10,15 @@ order: 4
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
+## Tutorial - Cómo implementar autómatas en Pilas Engine 2
+
+{% video
+  url: 'https://www.youtube.com/watch?v=yCh0zN6UGvE'
+  imagen: '/assets/videos/automatas/video.jpg'
+  titulo: 'Cómo implementar autómatas en Pilas Engine 2'
+  subtitulo: 'Pilas Engine 2'
+%}
+
 ## Tutorial - Cómo desarrollar un juego de lluvia de objetos con Pilas Engine
 
 {% video
@@ -53,7 +62,6 @@ conocer más sobre pilas:
   titulo: 'Cómo hacer un juego de lluvia de objetos - Parte 6'
   subtitulo: 'Pilas Engine 2'
 %}
-
 
 ## Tutorial - Cómo hacer un juego de plataformas
 
