@@ -28,7 +28,6 @@ La versión más reciente de Pilas Engine es <code>{{version}}</code>, publicada
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/pilas-engine-windows-32_bits.zip">Windows de 32 bits</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/pilas-engine-linux-32_bits.zip">GNU/Linux de 32 bits</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.pdf">Manual en formato PDF</a></p>
-  <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.mobi">Manual en formato mobi</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/book.epub">Manual en formato epub</a></p>
   <p class="dib mr2 ml2"><a class="link dim" href="{{baseurl}}{{version}}/version-minima.zip">Versión mínima como biblioteca</a></p>
 </div>
