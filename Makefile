@@ -37,17 +37,12 @@ compilar:
 
 deploy_a_produccion:
 	rm -rf _site
-	rm -rf dist
 	@echo "Compilando el sitio."
 	make compilar
-	@echo "Clonando repositorio para realizar el deploy."
-	git clone dokku@hugoruscitti.com.ar:sitio-web-de-pilas-engine dist
-	@echo "Moviendo archivos..."
-	@cp -r _site/* dist/
 	@echo "Realizando deploy..."
-	@cd dist; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git push -f
+	@touch _site/.static
+	@cd _site; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git remote add dokku dokku@examplelab.com.ar:sitio-web-de-pilas-engine; git push dokku master -f
 	rm -rf _site
-	rm -rf dist
 
 forzar_deploy:
 	git commit --allow-empty -m "Forzando deploy."
