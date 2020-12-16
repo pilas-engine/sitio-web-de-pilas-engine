@@ -41,6 +41,7 @@ deploy_a_produccion:
 	make compilar
 	@echo "Realizando deploy..."
 	@touch _site/.static
+	@ls -la _site/
 	@cd _site; git add .; git config user.email "hugoruscitti@gmail.com"; git config user.name "Hugo Ruscitti"; git commit -am 'rebuild' --allow-empty; git remote add dokku dokku@examplelab.com.ar:sitio-web-de-pilas-engine; git push dokku master -f
 	rm -rf _site
 
