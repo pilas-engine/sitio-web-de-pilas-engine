@@ -13,6 +13,7 @@ jobs:
           command: bundle exec jekyll build --verbose
       - run: echo -e "Host hugoruscitti.com.ar\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
       - run: echo -e "Host examplelab.com.ar\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+      - run: echo -e "Host pilas-engine.com.ar\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
       - run:
           name: Subiendo a dokku
           command: make deploy_a_produccion
